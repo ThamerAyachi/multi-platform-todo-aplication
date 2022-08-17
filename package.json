@@ -23,6 +23,7 @@
     "@typescript-eslint/eslint-plugin": "^5.10.0",
     "@typescript-eslint/parser": "^5.10.0",
     "autoprefixer": "^10.4.2",
+    "cordova-android": "^11.0.0",
     "electron": "^20.0.2",
     "electron-packager": "^15.5.1",
     "eslint": "^8.10.0",
