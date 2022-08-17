@@ -1,0 +1,32 @@
+// app global css in SCSS form
+
+.noTasks {
+  color: rgba(41, 41, 41, 0.6);
+  font-size: 23px;
+  text-align: center;
+  padding: 50px 0;
+
+  i {
+    font-size: 100px;
+    margin: 0 0 5px 0;
+  }
+
+  span {
+    display: block;
+  }
+
+  p {
+    font-size: 13px;
+    margin: 0;
+  }
+}
+
+.list-enter-active,
+.list-leave-active {
+  transition: all 0.5s ease;
+}
+.list-enter-from,
+.list-leave-to {
+  opacity: 0;
+  transform: translateX(30px);
+}
